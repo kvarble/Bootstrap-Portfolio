@@ -1,0 +1,23 @@
+.navbar-header {
+    height: 100px;
+}
+.navbar-brand {
+    float: left;
+    left: 40;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    padding: 30px;
+    font-size: 36px;
+    font: white;
+    height: 100%;
+}
+.navlinks {
+    float: right;
+    font-size: 36px;
+}
+.sm {
+max-width: 70px;
+}
+.my-image {
+    max-width: 270px;
+}
