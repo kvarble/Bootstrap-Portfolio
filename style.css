@@ -16,15 +16,21 @@
     height: 100%;
     line-height: 1em;
 }   
-.navlinks {
+/* .navlinks {
     font-size: 16px;
     padding-top: 20px;
+} */
+.navbar-right{
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .narrative {
-    display: inline;
+    /* display: inline; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
     color: #777777;
+    margin-top: 10px;
 }
 .main-content {
     border: 1px solid #cccccc;
@@ -44,11 +50,12 @@ h1 {
     max-width: 270px;
     float: left;
     margin: 20px;
+    margin-bottom: 10px;
 }
-footer {
+.footer {
     background-color: #4aaaa5;
     color: #ffffff;
-    bottom: 0px;
+    bottom: fixed;
     text-align: center;
     font-size: 8;
     padding: 20px;
@@ -75,6 +82,7 @@ footer {
     margin-top: 40px;
     color: #4aaaa5;
     font-weight: bold;
+    margin-bottom: 80px;
 }
 .sm {
     width: 50px;
@@ -83,45 +91,44 @@ footer {
     margin-right: 5px;
     margin-bottom: 20px;
 }
-.example-left {
-    width: 270px;
-    float: right;
-}
-.example-right {
-    width: 270px;
-    float: left;
+
+.example {
+    max-width: 250px;
+    /* float: left; */
 
 }
 .work {
-    width: 276px;
+    width: 250px;
     margin-top: 12px;
     margin-bottom: 24px;
     margin-right: 40px;
-    float: left;
-    position: relative;
+    /* margin-left: 30px; */
+    /* float: left; */
+    /* position: relative; */
     
 }
 h3 {
-    width: 242px;
-    height: 40px;
-    background-color: #4aaaa5;
-    position: absolute;
-    left: 6px;
-    right: 0;
-    bottom: 20px;
-    padding: 14px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #ffffff;
-    text-align: center;
-}
-h4 {
-    width: 242px;
+    width: 250px;
     height: 40px;
     background-color: #4aaaa5;
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 20px;
+    bottom: 40px;
+    padding: 14px;
+    margin-right: 40px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    text-align: center;
+}
+h4 {
+    width: 250px;
+    height: 40px;
+    background-color: #4aaaa5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
     padding: 14px;
     margin-right: 40px;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -130,6 +137,7 @@ h4 {
 }
 #contact-form ul {
     margin-bottom: 20px;
+    margin-right: 20px;
     }
     #contact-form li {
         margin-bottom: 10px;
@@ -167,5 +175,17 @@ h4 {
         font-size: 16px;
         font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         border: #777777 solid 1px;
-
     }
+    .form-group {
+        margin: 20px;
+        max-width: 650px;
+    }
+    #message {
+        max-height: 300px;
+    }
+    @media screen and (max-width: 768px) {
+        /* The body's bg color will be #333 */
+        .navbar {
+            text-align: center;
+        }
+      }
