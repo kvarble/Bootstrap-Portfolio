@@ -47,7 +47,9 @@ body {
     height: 100%;
     line-height: 1em;
     color: #777777;
-    margin-top: 30px;
+    margin-top: 10px;
+    float: right;
+
 
 }
 /* .navlinks {
